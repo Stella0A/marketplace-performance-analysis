@@ -52,7 +52,7 @@ Three datasets covering Oct–Nov 2025:
 | `support_tickets.csv` | 150 | category, resolution_time_hours, related_order_id |
 
 ### Data Model
-sellers ──(seller_id)──▶ orders ──(order_id)──▶ support_tickets
+sellers ──(seller_id)── orders ──(order_id)── support_tickets
 (1)                    (Many)     (1)              (Many)
 
 > Orders joined to sellers on `seller_id` to bring in country, tier and dispatch time.
